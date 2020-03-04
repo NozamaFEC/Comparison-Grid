@@ -9,7 +9,22 @@ module.exports = {
 		path: DIST_DIR
 	},
 	module: {
-		loaders: [
+		
+		rules: [
+			{
+				test: /\.css$/,
+				use: [
+				  {
+				  loader: "style-loader"
+				  },
+				  {
+				  loader: "css-loader",
+				  options: {
+					  modules: true
+				  }
+				  }
+				]
+			},
 			{
 				test: /\.jsx?/,
 				include: SRC_DIR,
