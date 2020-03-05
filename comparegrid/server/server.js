@@ -19,7 +19,7 @@ app.get('/products', (req, res) => {
   })  
 })
 
-app.listen(4000, function() {
-  console.log('listening on port 4000!');
+app.listen(3800, function() {
+  console.log('listening on port 3800!');
 });
 
