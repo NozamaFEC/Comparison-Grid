@@ -1,13 +1,26 @@
-table, tr, td {
-  /* border: 1px solid grey; */
+body {
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
+  font-family: Arial,sans-serif;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
-.mr-wrapper {
+
+/* table, tr, td {
+  /* border: 1px solid grey; */
+/* } */ 
+.mr-Wrapper {
   box-sizing: border-box;
   text-align: inherit;
   display: inline-block;
   width: 100%;
 } 
-.mr-spacing {
+.mr-Spacing {
   float: left;
   zoom: 1;
 }
@@ -51,12 +64,12 @@ a {
 div {
   display: block;
 }
-/* th {
+th {
   display: table-cell;
   font-weight: bold;
   padding-bottom: 8px;
   text-align: center;
-} */
+}
 .table {
   text-align: left;
   margin: 0 auto;
@@ -66,24 +79,12 @@ div {
 .a-ember body {
   font-family: "Amazon Ember",Arial,sans-serif;
 }
-body {
-  font-size: 13px;
-  line-height: 19px;
-  color: #111;
-  font-family: Arial,sans-serif;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-td, th {
+td {
   text-align: center;
   vertical-align: top;
   padding: 3px;
 }
-.keyHead1 {
+.keyHead {
   border-top: 1px solid #dddddd;
   padding: 8px 14px 6px !important;
   background-color: #f7f7f7;
@@ -95,15 +96,25 @@ td, th {
   width: 106px;
   border-right: 1px solid #dddddd;
 }
-.a-size-base {
+.a-Size-Base {
   font-size: 13px!important;
-    line-height: 19px!important;
-    font-weight: 400!important;
-  font-style: normal!important;
-  text-transform: none!important;
-  text-decoration: none!important;
-  color: #888!important;
-
+  line-height: 19px!important;
 }
+.a-Text-Normal {
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+.a-Color-Secondary {
+  color: #949494;
+}
+
+.red {
+  background-color: hotpink;
+}
+
+
+
 
   

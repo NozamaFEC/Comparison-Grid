@@ -14,24 +14,14 @@ module.exports = {
 			{
 				test: /\.css$/,
 				use: [
-				  {
-				  loader: "style-loader"
-				  },
-				  {
-				  loader: "css-loader",
-				  options: {
-					  modules: true
-				  }
-				  }
+				  "style-loader",
+				  "css-loader"
 				]
 			},
 			{
 				test: /\.jsx?/,
 				include: SRC_DIR,
 				loader: "babel-loader",
-				query: {
-					presets: ["react", "es2015"]
-				}
 			}
 		]
 	}

@@ -12,7 +12,7 @@ connection.connect(function(err) {
 });
 
 var getAllInfo = function(cb) {
-    connection.query('SELECT * FROM mrproducts', (err, products) => {
+    connection.query('SELECT * FROM toys', (err, products) => {
         if (err) {
             cb(err, null)
         } else {
