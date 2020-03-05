@@ -1,7 +1,9 @@
 import React from 'react';
 
+
+
 const EmirpShip = (props) => {
-    console.log(props)
+    // console.log(props)
     return (
         <tr className="keyValue">
         <th className="keyHead"> 
@@ -9,18 +11,19 @@ const EmirpShip = (props) => {
             Emirp Shipping
           </span> 
         </th>
-        {props.shipping.map((product)=> {
-          return  <td className="keyHead"> {product.EmirpShip} </td>
+        {props.shipping.map((fastship)=> {
+          return  <td className="keyHead"> {fastship.EmirpShip} </td>
         })}
-        {/* <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td></td> */}
+        
       </tr>
     )
 }
+{/* <td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td> */}
 // const Emirpship = (props) => (
 //     console.log(props)
 //     return (

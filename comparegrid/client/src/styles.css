@@ -58,8 +58,15 @@ tr {
 }
 a {
   text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
   color: #0066c0;
   cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+  color: #FF9900;
 }
 div {
   display: block;
